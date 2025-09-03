@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.top{
+  padding:25px;
+  background-color:#461a05;
+  color: white;
+display: flex;  
+justify-content: space-between;
+align-items: center;
+
+
+}
+nav{
+  margin-right: 100px;
+}
+a:link{
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
+  margin-left: 30px;
+  
+
+}
+.container{
+  text-align: center;
+  margin: 300px auto;
+  
+}
+.header{
+  font-size: 55px;
+  color: white;
+
+}
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+button{
+  padding:15px 50px;
+  background-color:#bd4913 ;
+  border: #bd4913;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  /* box-shadow: 5px 5px 5px   rgba(0,0,0,0.5); */
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+animation-name: color;
+animation-duration: 0.5s;
+animation-delay: 0;
+animation-iteration-count: infinite;
+}
+@keyframes color{
+  from { background-color:#bd4913 ;}
+to{ background-color: rgb(233, 87, 87);
+}
+}
+button:hover{
+  background-color:white ;
+  color: black;
+  border: 2px solid black;
+}
+body{
+  background-image: url("image/freshly-baked-homemade-bread-rustic-wood-table-generated-by-ai.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
