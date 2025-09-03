@@ -28,4 +28,5 @@ project-folder/
 │── index.html        # Main HTML file (homepage)
 │── cookie.css        # CSS file for styling
 │── image used in code.jpg # image used as background
+output:-
 <img width="1881" height="1094" alt="image" src="https://github.com/user-attachments/assets/ffa90c0d-6f63-4cd3-967a-b16448d9dd3d" />
